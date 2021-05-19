@@ -1,0 +1,5 @@
+(DEFUN FACT (N)
+ (COND ((EQ N 0) 1)
+  (T (* N (FACT (- N 1))))
+ )
+)

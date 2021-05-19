@@ -1,0 +1,20 @@
+(DEFUN KR (X)
+ (PROG (N I R Q)
+   (SETQ N X)
+   (COND ((< N 1) (RETURN NIL)) )
+   (SETQ I 2) 
+   (SETQ R 1)
+   (COND ((= N 1) (RETURN '(1)) ) )
+   (COND ((= N 2) (RETURN '(1 4)) ) )
+   (SETQ R '(4 1) )
+   A 
+   (SETQ I (+ 1 I))
+   (SETQ Q (* I I))
+   (SETQ R (CONS Q R) )
+   (COND ((= I N) (RETURN (REVERSE R)) ))
+     
+   (GO A)
+ )
+)
+   
+   

@@ -1,0 +1,7 @@
+(DEFUN TRAN(W WEB)
+ (COND ((NULL WEB) NIL) 
+       ((EQ W (CAR (CAR WEB))) (CDR (CAR WEB)))
+       (T (TRAN W (CDR WEB)))
+ )
+
+)
