@@ -1,0 +1,10 @@
+CREATE ARR 100 ALLOT
+VARIABLE L 25 L !   ( сйюгюммши щкелемр )
+VARIABLE N 20 N !  ( йнкхвеярбн щкелемрнб б люяяхбе )
+VARIABLE X 0 X !    ( явервхй )
+: FILL1 N @ 0 DO I ARR I 4 * + ! LOOP ;
+FILL1  ( гюонкмхкх люяяхб )
+  ( яяшкйю мю люяяхб )
+   ( сйюгюммши щкелемр )
+   ( йнкхвеярбн щкелемрнб б люяяхбе )
+: MANY 0 DO OVER I 4 * + @ OVER = IF X @ 1 + X ! THEN LOOP X @ ;

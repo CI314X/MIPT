@@ -1,0 +1,6 @@
+: FCT DUP 1 <> 
+     IF 
+       DUP 1-
+       RECURSIVE FCT
+       *
+     THEN ;

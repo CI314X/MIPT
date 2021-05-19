@@ -1,0 +1,4 @@
+: FILL2 20 0 DO I ARR I 4 * + ! LOOP ;
+: FILL1 1 + 1 DO DUP 4 I * + I SWAP ! LOOP ;
+: WRITE1 1 + 1 DO DUP 4 I * + @ . LOOP ;
+: MIN1 1 + 0 DO ARR 4 I * + @ X @ < IF ARR 4 I * + @ X ! THEN LOOP ;
